@@ -4,14 +4,9 @@ using System.Diagnostics;
 
 namespace Construction_tasks.Controllers
 {
-    public class HomeController : Controller
+    public class InstructionsController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }
